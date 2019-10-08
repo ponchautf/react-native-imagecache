@@ -1,7 +1,7 @@
 {
-  "name": "react-native-cached-image",
+  "name": "react-native-image-cache",
   "version": "1.4.3",
-  "description": "CachedImage component for react-native",
+  "description": "Image Cache component for react-native",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest"
@@ -22,19 +22,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kfiroo/react-native-cached-image"
+    "url": "https://github.com/ponchautf/react-native-image-cache"
   },
   "keywords": [
     "react-native",
     "cache",
     "image"
   ],
-  "author": "kfiroo <kfirgolan@gmail.com>",
+  "author": "FredPonch <frederic.ponchaut@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kfiroo/react-native-cached-image/issues"
+    "url": "https://github.com/ponchautf/react-native-image-cache/issues"
   },
-  "homepage": "https://github.com/kfiroo/react-native-cached-image",
+  "homepage": "https://github.com/ponchautf/react-native-image-cache",
   "files": [
     "index.js",
     "CachedImage.js",
