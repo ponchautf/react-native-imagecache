@@ -1,17 +1,20 @@
 
-# react-native-cached-image
+# react-native-cacheimages
 
 CachedImage component for react-native
 
-This package if an updated version of [kfiroo](https://github.com/kfiroo) react-native-cached-image.
+This package if an updated version of [kfiroo] great work: (https://github.com/kfiroo) [react-native-cached-image](https://www.npmjs.com/package/react-native-cached-image).
+
+This first version include some package update to fix important security issues.
+Future update will include some update for react-native >=0.59 (using exctracted packages that will be moved from react-native to @react-native-community)
 
 This package is greatly inspired by [@jayesbe](https://github.com/jayesbe)'s amazing [react-native-cacheable-image](https://github.com/jayesbe/react-native-cacheable-image) but adds some functionality that we were missing when trying to handle caching images in our react-native app.
 
 ## Installation
 
-    npm install react-native-cached-image --save
+    npm install react-native-cacheimages --save
     - or -
-    yarn add react-native-cached-image
+    yarn add react-native-cacheimages
 
 We use [`react-native-fetch-blob`](https://github.com/wkh237/react-native-fetch-blob#installation) to handle file system access in this package and it requires an extra step during the installation.  
 
@@ -37,7 +40,7 @@ import React from 'react';
 import {
     CachedImage,
     ImageCacheProvider
-} from 'react-native-cached-image';
+} from 'react-native-cacheimages';
 
 const images = [
     'https://example.com/images/1.jpg',
@@ -73,7 +76,7 @@ const {
     CachedImage,            // react-native component that is a drop-in replacement for your react-native `Image` components
     ImageCacheProvider,     // a top level component that provides accsess to the underlying `ImageCacheManager` and preloads images
     ImageCacheManager,      // the logic behind cache machanism - ttl, fs, url resolving etc. 
-} = require('react-native-cached-image');
+} = require('react-native-cacheimages');
 ```
 
 ### ImageCacheManager
